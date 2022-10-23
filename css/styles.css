@@ -2,7 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
 }
 
 .link {
@@ -31,6 +31,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.link-hover:hover,
+.link-hover:focus{
+  color: #2196f3;
+}
+
 /* Header  */
 .header{
     background: #FFFFFF;
@@ -56,10 +61,7 @@ body {
   color: #757575;
 }
 
-.header-list-link:hover,
-.header-list-link:focus,
-.header-list-feedback:hover,
-.header-list-feedback:focus {
+.activ-link{
   color: #2196f3;
 }
 
@@ -171,3 +173,7 @@ body {
 .footer-address-tel {
   color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* portfolio.html */
+/* section Портфоліо */
