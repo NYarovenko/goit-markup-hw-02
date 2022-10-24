@@ -9,6 +9,7 @@
   --borders-color: #2f303a;
 
   --card-color:#f5f4fa;
+  --blue-activ-logo: #188CE8;
 
 }
 
@@ -102,8 +103,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-white);
+  background-color: var(--blue-color-logo);
 
   cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+  background-color: var(--blue-activ-logo);
 }
 
 /* Features  */
